@@ -42,7 +42,6 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://alex-mat-s.github.io/kitty_vis",
   "devDependencies": {
     "gh-pages": "^6.1.1"
   }
