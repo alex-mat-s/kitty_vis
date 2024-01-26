@@ -9,7 +9,6 @@
     "chart.js": "^4.4.1",
     "chartjs-adapter-moment": "^1.0.1",
     "d3": "^7.8.5",
-    "gh-pages": "^6.1.1",
     "leaflet": "^1.9.4",
     "react": "^18.2.0",
     "react-chartjs-2": "^5.2.0",
@@ -43,11 +42,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://alex-mat-s.github.io/kitty_vis"
+  "homepage": "https://alex-mat-s.github.io/kitty_vis",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
 }
-  
-  
-
-  
-
-
