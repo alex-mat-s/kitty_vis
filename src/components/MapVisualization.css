@@ -1,0 +1,17 @@
+.map-visualization {
+    text-align: center;
+}
+
+.selectors {
+    margin-bottom: 20px;
+}
+
+.selectors div {
+    margin: 10px 0;
+}
+
+.map-container {
+    height: 600px;
+    width: 800px;
+    margin: 0 auto; /* Center the map */
+}

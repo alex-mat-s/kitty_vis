@@ -1,0 +1,66 @@
+/* Basic styles for the app */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFF4FA;
+    
+  }
+  
+.custom-colored-h1 {
+  color: #AF2F70
+}
+
+select {
+  appearance: none;
+  /* safari */
+  -webkit-appearance: none;
+  /* other styles for aesthetics */
+  width: 100%;
+  font-size: 1.15rem;
+  padding: 0.675em 6em 0.675em 1em;
+  background-color: #FFF4FA;
+  border: 2px solid #AF2F70;
+  border-radius: 0.25rem;
+  color: #AF2F70;
+  cursor: pointer;
+}
+
+label {
+  font-size: 1.15rem;
+  padding: 0.675em 0em 0.675em 0em;
+  color: #AF2F70;
+}
+
+.spinner {
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top: 4px solid #000;
+  width: 40px;
+  height: 40px;
+  animation: spin 2s linear infinite;
+  margin: 50px auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Styles for the visualization container */
+.visualization-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: start; /* Aligns items at the start of the container */
+}
+
+#map, #graph {
+  flex: 1; /* Each child (map and graph) takes equal width */
+  padding: 60px; /* Optional padding around each section */
+}
+
+#map {
+  /* Additional styles for the map, if necessary */
+  /* Example: set a minimum width to ensure the map is always visible */
+  min-width: 300px; /* Adjust as needed */
+}
